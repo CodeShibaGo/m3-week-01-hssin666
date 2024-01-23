@@ -1,2 +1,8 @@
 def find_capitals(word):
-    pass
+    capital = str()
+    for i in word.split(' '):
+        if i.istitle():
+            capital += i[0]
+        else:
+            continue
+    return capital

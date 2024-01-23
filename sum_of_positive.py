@@ -1,2 +1,8 @@
 def positive_sum(arr):
-    pass
+    result = 0
+    for i in arr:
+        if i > 0:
+            result += i
+        else:
+            continue
+    return result

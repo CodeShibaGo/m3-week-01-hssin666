@@ -1,2 +1,3 @@
 def calculate_average(nums):
-    pass
+    avg = sum(nums)/len(nums)
+    return avg

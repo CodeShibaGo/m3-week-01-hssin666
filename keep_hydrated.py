@@ -1,2 +1,4 @@
 def litres(time):
-    pass
+    result = int(time // 2)
+
+    return result

@@ -1,2 +1,3 @@
 def count_sheep(sheep):
-    pass
+    result = sheep.count(True)
+    return result
